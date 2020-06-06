@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Digit classifier</title>
+    <script src="./classify.js"></script>
+    <script src="./lib/nn/index.js"></script>
+    <script src="./lib/matrix/index.js"></script>
+    <script src="./lib/vector/index.js"></script>
+    <script src="./weights.json"></script>
+    <script src="./biases.json"></script>
+    <style>
+canvas {
+  border: solid 1px #000;
+}
+    </style>
+  </head>
+  <body>
+    <h1>Draw a digit in the box</h1>
+    <div id="canvas">
+      <canvas id="digits"></canvas>
+    </div>
+    <p>Prediction: <span id="prediction"></span></p>
+    <button id="reset">Reset canvas</button>
+  </body>
+</html>

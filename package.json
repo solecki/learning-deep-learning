@@ -1,0 +1,19 @@
+{
+  "name": "nn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "matrix": "file: ./lib/matrix",
+    "mnist": "^1.1.0",
+    "nn": "file: ./lib/nn",
+    "nodemon": "^1.18.11"
+  }
+}
